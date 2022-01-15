@@ -16,4 +16,4 @@
 <li>http://127.0.0.1:9999/api?id=id_yang_akan_di_hapus --> method : "DELETE"</li>
 
 <h4>Search new video data on Youtube and add to database on top 3</h4>
-<li>http://127.0.0.1:9999/search?search=pencarian --> method : "GET"</li>
+<li>http://127.0.0.1:9999/search?search_query=pencarian --> method : "GET"</li>
