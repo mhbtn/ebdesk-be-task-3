@@ -23,7 +23,7 @@ def youtube():
                     check_exist = "SELECT * FROM trending_youtube WHERE id = %s" % id_
                     if len(dt.get_data(check_exist)) == 0:
                         data = [{
-                            "messgae": "id not found"
+                            "messgae": "id tidak ditemukan"
                         }]
                     else:
                         query = check_exist
@@ -47,7 +47,7 @@ def youtube():
                 check_exist = "SELECT * FROM trending_youtube WHERE id = %s" % id_
                 if len(dt.get_data(check_exist)) == 0:
                     data = [{
-                        "messgae": "id not found"
+                        "messgae": "id tidak ditemukan"
                     }]
                 else:
                     validate = FormSubmission(request.form)
@@ -68,7 +68,7 @@ def youtube():
                 check_exist = "SELECT * FROM trending_youtube WHERE id = %s" % id_
                 if len(dt.get_data(check_exist)) == 0:
                     data = [{
-                        "messgae" : "id not found"
+                        "messgae" : "id tidak ditemukan"
                     }]
                 else:
                     query = "DELETE FROM trending_youtube WHERE id = {}".format(id_)
