@@ -6,6 +6,9 @@
 <h4>Mengambil spesifik 1 id</h4>
 <li>http://127.0.0.1:9999/api?id=id_yang_akan_dicari --> method : "GET"</li> 
 
+<h4>Mencari record di database berdasarkan semua kolom</h4>
+<li>http://127.0.0.1:9999/api?search=pencarian --> method : "GET"</li> 
+
 <h4>Membuat dan menginput data baru</h4>
 <li>http://127.0.0.1:9999/api --> mehtod : "POST", body --> form-data atau x-www-form-urlencoded</li>
 
